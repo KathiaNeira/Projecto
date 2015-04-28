@@ -1,0 +1,100 @@
+.container {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.logo {
+	text-align: center;
+	padding: 2% 0;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-brand {
+	float: none;
+	padding: 0;
+}
+
+.navbar-nav {
+	float: none;
+	margin: 0;
+	text-align: center;
+	li {
+	float: none;
+	display:inline-block;
+	@media screen and (max-width: #{$screen-phone}){
+		display: block;
+	}
+	}
+}
+
+li a {
+	color: rgb(128, 129, 123);
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.foto {
+	background-color: red;
+	height: 100px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: 100%;
+}
+
+.grid {
+	padding: 5% 2%;
+}
+
+.caja {
+	position: relative;
+}
+
+.lore {
+	color: gray;
+}
+
+.caja img {
+	width: 100%;
+}
+
+h4 {
+	color: rgb(180, 150, 177);
+}
+
+.overlay {
+	background-color: rgba(239, 217, 234, 0.5);
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	&:hover {
+		background-color: rgba(239, 207, 234, 0);
+	}
+}
+
+.footer {
+	background: rgb(178, 172, 174);
+}
+
+.rs {
+	width: 20%;
+	display: inline-block;
+	padding: 2%;
+}
+
+.redes img {
+	width: 100%;
+}
+
+.texto {
+	padding: 2% 7%;
+}
